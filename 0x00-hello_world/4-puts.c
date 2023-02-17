@@ -1,8 +1,23 @@
 #include <stdio.h>
 
-int main()
+/**
+ * main - Entry point of the program
+ *
+ * Return: 0 to indicate success
+ */
+int main(void)
 {
-    puts("Programming is like building a multilingual puzzle,");
-    return 0; /*if the program runs successfully it returns 0*/
+	/* Print the desired string to the standard output */
+	puts("Programming is like building a multilingual puzzle,");
+
+	/* Return 0 to indicate success */
+	return (0);
 }
+
+
+
+
+
+
+
 
