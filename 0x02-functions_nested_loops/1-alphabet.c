@@ -6,7 +6,7 @@
  */
 void main(void)
 {
-	char x;
+	char a;
 
 	for(a = 'a'; a<='z'; a++)
 	{
@@ -15,4 +15,3 @@ void main(void)
 
 	_putchar('\n');
 }
-
