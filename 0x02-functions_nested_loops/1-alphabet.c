@@ -1,14 +1,17 @@
 #include<stdio.h>
 #include "main.h"
 /**
- * main - Enty point
- * Return: always 0 (success)
+ * print_alphabet - check description
+ *
+ * Description: print alowercase alphabet
+ *
+ * Return: void
  */
-void main(void)
+void print_alphabet(void)
 {
 	char a;
 
-	for(a = 'a'; a<='z'; a++)
+	for(a = 'a'; a <= 'z'; a++)
 	{
 		_putchar(a);
 	}
