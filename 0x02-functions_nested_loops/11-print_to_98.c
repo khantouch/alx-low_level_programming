@@ -2,6 +2,9 @@
 #include "main.h"
 /**
  *print_to_98 : prints n to 98
+ *
+ *Description: print natural num from n to 98
+ *
  *@n: int argument
  */
 void print_to_98(int n)
