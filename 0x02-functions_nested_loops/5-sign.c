@@ -1,33 +1,33 @@
 #include "main.h"
-#include<stdio>
-/**
- * main - check the code.
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    int r;
+#include <ctype.h>
 
-    r = print_sign(98);
-    _putchar(',');
-    _putchar(' ');
-    _putchar(r + '0');
-    _putchar('\n');
-    r = print_sign(0);
-    _putchar(',');
-    _putchar(' ');
-    _putchar(r + '0');
-    _putchar('\n');
-    r = print_sign(0xff);
-    _putchar(',');
-    _putchar(' ');
-    _putchar(r + '0');
-    _putchar('\n');
-    r = print_sign(-1);
-    _putchar(',');
-    _putchar(' ');
-    _putchar(r + '0');
-    _putchar('\n');
-    return (0);
+/**
+ * print_sign - check description
+ *
+ *@n: number to check
+ * Description: Check if n is signe or not
+ *
+ * Return: 1 if positive , 0 if n egale a zero , -1 if n negative
+ */
+
+int print_sign(int n)
+{
+
+	if (n > 0)
+	{
+		_putchar('+');
+		return (1);
+	}
+	else if (n == 0)
+	{
+		_putchar('0');
+		return (0);
+	}
+	else
+	{
+		_putchar('-');
+		return (-1);
+	}
+
+	_putchar('\n');
 }
