@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 
 	if (argc == count)
 	{
-		printf("0\n");
+		printf("%d\n", 0);
 		return (0);
 	}
 
