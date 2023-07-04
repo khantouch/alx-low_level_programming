@@ -1,1 +1,0 @@
-Pointer_Array_strings
